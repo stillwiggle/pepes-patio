@@ -11,14 +11,14 @@
     <main>
         <h1>Contact Pepe's Patio</h1>
         <p>Thank you for visiting Pepe's Patio.  Your feedback is crucial to our success, so we welcome you input with open arms.</p>
-        <form>
+        <form method="get" action="submitted.html">
             <div class="form-group">
               <label for="contactName">Full name</label>
-              <input type="text" class="form-control" id="contactName" placeholder="Full name">
+              <input type="text" class="form-control" id="contactName" name="fullName" placeholder="Full name">
             </div>
             <div class="form-group">
               <label for="contactEmail">Email address</label>
-              <input type="email" class="form-control" id="contactEmail" placeholder="example@email.com">
+              <input type="email" class="form-control" id="contactEmail" name="emailAddress" placeholder="example@email.com">
             </div>
             <br />
             <div class="form-group">
@@ -35,17 +35,15 @@
                     <label class="form-check-label" for="feedbackProductSupport">Product Support</label>
                   </div> <br />
                 <label for="feedbackResponse"></label>
-                <textarea class="form-control" id="feedbackResponse" rows="10"  placeholder="Enter feedback here..."></textarea>
+                <textarea class="form-control" id="feedbackResponse" rows="10" name="feedbackContent" placeholder="Enter feedback here..."></textarea>
             </div>
             <br />
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="contactMe">
-                <label class="form-check-label" for="contactMe">
-                  I would like to be contacted regarding this feedback
-                </label>
+                <input class="form-check-input" type="checkbox" value="ContactMe" id="contactMe" name="contactMe">
+                <label class="form-check-label" for="contactMe">I would like to be contacted regarding this feedback</label>
             </div>
             <br />
-            <a href="submitted.html" class="btn btn-primary">Submit Feedback</a>
+            <button type="submit" class="btn btn-primary" href="account.html">Submit</button>
         </form>
     </main>
 
