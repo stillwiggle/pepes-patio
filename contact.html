@@ -11,31 +11,31 @@
     <main>
         <h1>Contact Pepe's Patio</h1>
         <p>Thank you for visiting Pepe's Patio.  Your feedback is crucial to our success, so we welcome you input with open arms.</p>
-        <form method="get" action="submitted.html">
+        <form method="post" action="submitted.html">
             <div class="form-group">
               <label for="contactName">Full name</label>
-              <input type="text" class="form-control" id="contactName" name="fullName" placeholder="Full name">
+              <input type="text" class="form-control" id="contactName" name="fullName" placeholder="Full name" required>
             </div>
             <div class="form-group">
               <label for="contactEmail">Email address</label>
-              <input type="email" class="form-control" id="contactEmail" name="emailAddress" placeholder="example@email.com">
+              <input type="email" class="form-control" id="contactEmail" name="emailAddress" placeholder="example@email.com" required>
             </div>
             <br />
             <div class="form-group">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="feedbackComment" value="comment">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="feedbackComment" value="comment" required>
                     <label class="form-check-label" for="feedbackComment">Comment</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="feedbackTechSupport" value="techSupport">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="feedbackTechSupport" value="techSupport" required>
                     <label class="form-check-label" for="feedbackTechSupport">Technical Support</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="feedbackProductSupport" value="productSupport">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="feedbackProductSupport" value="productSupport" required>
                     <label class="form-check-label" for="feedbackProductSupport">Product Support</label>
                   </div> <br />
                 <label for="feedbackResponse"></label>
-                <textarea class="form-control" id="feedbackResponse" rows="10" name="feedbackContent" placeholder="Enter feedback here..."></textarea>
+                <textarea class="form-control" id="feedbackResponse" rows="10" name="feedbackContent" placeholder="Enter feedback here..." required></textarea>
             </div>
             <br />
             <div class="form-check">
