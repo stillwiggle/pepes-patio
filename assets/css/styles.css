@@ -63,12 +63,24 @@ body {
   }
 
   .safetyTable {
-      width: 25%;
+      width: 50%;
       background-color: white;
   }
  
   .safetyTable p {
       align-items: flex-end;
+  }
+
+  .safetyNo {
+    background-color: maroon;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+
+  .safetyYes {
+    background-color: green;
+    color: whitesmoke;
+    font-weight: bold;
   }
 
   .category {
