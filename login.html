@@ -48,30 +48,32 @@
     
     <!-- Main Content -->
     <main>
-      <h1>Log into Pepe's Patio</h1>
-      <p>Thank you for returning to the Patio.  Pepe has missed you greatly.</p>
-      <br><br>
-      <div class="loginContainer">
-        <form method="get" action="account.html">
-            <div class="form-group">
-              <label for="loginEmail">Email address</label>
-              <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Enter email address" required name="email">
-              <small id="emailHelp" class="form-text text-muted">Pepe will never share your email address with any critters outside of this site.</small>
-            </div>
-            <br>
-            <div class="form-group">
-              <label for="loginPassword">Password</label>
-              <input type="password" class="form-control" id="loginPassword" placeholder="Password" required name="password">
-            </div>
-            <br />
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="loginRemember" name="remember" value="yes">
-              <label class="form-check-label" for="loginRemember">Remember me (stay logged in)</label>
-            </div>
-            <br>
-            <button type="submit" class="btn btn-primary" href="account.html">Log in</button>
-          </form>
-      </div>
+      <section class="container flex mt-2">
+        <h1>Log into Pepe's Patio</h1>
+        <p>Thank you for returning to the Patio.  Pepe has missed you greatly.</p>
+        <br><br>
+        <div class="loginContainer">
+          <form method="get" action="account.html">
+              <div class="form-group">
+                <label for="loginEmail">Email address</label>
+                <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Enter email address" required name="email">
+                <small id="emailHelp" class="form-text text-muted">Pepe will never share your email address with any critters outside of this site.</small>
+              </div>
+              <br>
+              <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" class="form-control" id="loginPassword" placeholder="Password" required name="password">
+              </div>
+              <br />
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="loginRemember" name="remember" value="yes">
+                <label class="form-check-label" for="loginRemember">Remember me (stay logged in)</label>
+              </div>
+              <br>
+              <button type="submit" class="btn btn-primary" href="account.html">Log in</button>
+            </form>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
