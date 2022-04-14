@@ -63,3 +63,12 @@ body {
       position: relative;
       left: 120px;
   }
+
+  .safetyTable {
+      width: 25%;
+      background-color: white;
+  }
+ 
+  .safetyTable p {
+      align-items: flex-end;
+  }
