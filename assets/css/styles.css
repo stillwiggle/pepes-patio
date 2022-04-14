@@ -11,7 +11,7 @@ body {
 }
 
 .card img {
-    width: 50%;
+    width: auto;
     height: 50%;
 }
 
@@ -56,6 +56,10 @@ body {
   .hero h1, .hero h2, .hero p {
       position: relative;
       left: 120px;
+  }
+
+  .hpCards {
+      background-image: url('/assets/images/desert-bg.avif');
   }
 
   .safetyTable {

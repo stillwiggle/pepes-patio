@@ -11,7 +11,7 @@
   <body>
     <!-- Header -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
           <div class="container-fluid">
             <div class="profile-pic"><a href="index.html"><img alt="Home" src="./assets/images/header_logo.png"></a></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,34 +55,27 @@
       </div>
     </section>
 
-    <section class="container flex flex-column align-center">
-      <div class="category">
-        <a href="products.html">
-          <img alt="Lucky" src="./assets/images/lucky.jpeg" />
-          <div class="category-text">
-            <h3>Get Lucky</h3>
-            <div>25% off with first order</div>
-          </div>
-        </a>
-      </div>
-      <div class="category">
-        <a href="#">
-          <img alt="Queen Pepe" src="./assets/images/header_logo.png" />
-          <div class="category-text">
-            <h3>Queen Pepe</h3>
-            <div>Follow the Queen</div>
-          </div>
-        </a>
-      </div>
+    <!-- Announcement Cards -->
+    <section class="container d-flex justify-content-around bg-light mt-5 hpCards">
+        
+        <div class="mt-5">
+            <img width="300" height="300" src="./assets/images/lucky.jpeg">
+            <div class=" d-flex justify-content-center"><h2>Get Lucky</h2></div>
+            <div class=" d-flex justify-content-center"><p><a class="btn btn-primary" href="products.html" role="button">25% of with first order</a></p></div>
+        </div>
+        <div class="mt-5">
+            <img width="300" height="300" src="./assets/images/header_logo.png">
+            <div class=" d-flex justify-content-center"><h2>Queen Pepe</h2></div>
+            <div class=" d-flex justify-content-center"><p><a class="btn btn-primary" href="https://www.instagram.com/thisismypuppy/" target="_blank" role="button">Follow the Queen</a></p></div>
+        </div>
+      
     </section>
-
     <hr>
+
     <!-- Table -->
-    <h2>Safety First! What is safe for your beardie?</h2>
-    <p>We love our bearded dragons and want them to have a fun place to live, but not all materials are safe for our spikey friends.  The table below outlines was is and is not safe for bearded dragons.</p>
     <div class="container safetyTable flex flex-column align-center">
       <h2>Safety First! What is safe for your beardie?</h2>
-    <p>We love our bearded dragons and want them to have a fun place to live, but not all materials are safe for our spikey friends.  The table below outlines was is and is not safe for bearded dragons.</p>
+      <p>We love our bearded dragons and want them to have a fun place to live, but not all materials are safe for our spikey friends.  The table below outlines was is and is not safe for bearded dragons.</p>
       <table class="table">
         <thead>
           <tr>
