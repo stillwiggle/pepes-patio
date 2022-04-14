@@ -11,21 +11,6 @@
     height: 50%;
 }
 
-<<<<<<< HEAD
-body, html {
-    height: 100%;
-}
-
-.profile-pic {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .profile-pic img {
-    border-radius: 100px;
-    max-width: 100%;
-  }
-=======
 .profile-pic {
     width: 60px;
     height: 60px;
@@ -35,4 +20,3 @@ body, html {
     border-radius: 100px;
     max-width: 100%;
  }
->>>>>>> main
