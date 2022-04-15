@@ -59,7 +59,7 @@ body {
   }
 
   .hpCards {
-      background-image: url('/assets/images/desert-bg.avif');
+      background-image: url('../images/desert-bg.avif');
   }
 
   .safetyTable {
