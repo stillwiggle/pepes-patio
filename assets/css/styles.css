@@ -27,7 +27,7 @@ body {
 
 
  .hero {
-    background-image: url('/assets/images/pepe_hero.jpeg');
+    background-image: url('../images/pepe_hero.jpeg');
     height: 400px;
     background-size: contain;
     background-repeat: no-repeat;
